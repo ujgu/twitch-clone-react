@@ -1,0 +1,34 @@
+.Banner{
+    display: flex;
+    margin: 2rem auto;
+    width: 90%;
+    height: 20rem;
+    /* background-color: red; */
+}
+.ArrowsSets{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 5%;
+    height: auto;
+    /* background-color: yellow; */
+}
+.arrows{
+    width: 30px;
+    height: 30px;   
+}
+.arrows:hover{
+    cursor: pointer;   
+}
+.BannerImage{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 90%;
+    height: 100%;
+    /* background-color: green; */
+}
+.banner-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

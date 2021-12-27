@@ -1,0 +1,11 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    width: 84%;
+    height: auto;
+    justify-content: center;
+    background-color: #0e0e10;
+    /* overflow: scroll; 
+    overflow-x: auto;*/
+    overflow-y: auto; 
+}

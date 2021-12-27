@@ -1,0 +1,48 @@
+.BottomInfo{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #5c16c5;
+    border-radius: 5px;
+    z-index: 100000;
+}
+.BottomImage{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+.BottomText{
+    margin-left: 10px;
+}
+.TextBottomBold{
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.TextBottom{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.BottomButton{
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    border:none;
+    margin-left: auto;
+    font-weight: 500;
+    /* order: 2;   */
+}
+.BottomButton:hover{
+    cursor: pointer;
+    background-color: #dfd7d7;
+}
+.secret{
+    width: 60px;
+    height: 20px;
+}

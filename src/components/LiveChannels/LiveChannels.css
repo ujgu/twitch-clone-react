@@ -1,0 +1,27 @@
+.liveChannelsContainer{
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 0;
+    margin: 0; 
+}
+.LiveChannelsTitle{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.Title{
+    color: #DEDEE3;
+}
+.liveStreams{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
