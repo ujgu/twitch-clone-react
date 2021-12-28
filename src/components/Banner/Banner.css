@@ -4,6 +4,7 @@
     width: 90%;
     height: 20rem;
     /* background-color: red; */
+    z-index: 1000;
 }
 .ArrowsSets{
     display: flex;

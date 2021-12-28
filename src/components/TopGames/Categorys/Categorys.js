@@ -28,7 +28,7 @@ function Categorys(props){
     return(
         <div className="top-games-container">
                 <div className="top-games-tumbnail">
-                    <img src={props.Img} alt=""/>
+                    <img className="picture" src={props.Img} alt=""/>
                 </div>
                 <div className="top-games-name">{props.Game}</div>
                 <div className="top-games-view"> {viewers/1000} izleyici</div>

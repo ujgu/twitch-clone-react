@@ -8,11 +8,11 @@
     /* background-color: blue; */
     align-items: center;   
 }
-.top-games-tumbnail{
+/* .top-games-tumbnail{
     width: 188px;
     height: 250px;
     margin-bottom: 5px;
-}
+} */
 .top-games-name{
     position: relative;
     left: -40px;
@@ -52,4 +52,53 @@
 .top-games-category:hover{
     cursor: pointer;
     background-color: #48484b;
+}
+.top-games-tumbnail {
+    display: inline-block;
+    margin-bottom: 5px;
+    background-color: #9147ff;
+  }
+
+.top-games-tumbnail:before,
+.top-games-tumbnail:after {
+    display: block;
+    background-color: #9147ff;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    transition: all .15s ease;
+}
+
+.top-games-tumbnail:before {
+    top: 0;
+    left: 0;
+    transform-origin: top left;
+    transform: rotate(-45deg) scale(0);
+}
+
+.top-games-tumbnail:after {
+    right: 0;
+    bottom: 0;
+    transform-origin: bottom right;
+    transform: rotate(45deg) scale(0);
+}
+
+.picture {
+    height: 250px;
+    display: block;
+    transform: translate(0, 0);
+    transition: all .15s ease;
+    z-index: 10;
+}
+
+.top-games-tumbnail:hover .picture {
+    transform: translate(6px, -6px);
+}
+
+.top-games-tumbnail:hover:before {
+    transform: rotate(-45deg) scale(1);
+}
+
+.top-games-tumbnail:hover:after {
+    transform: rotate(45deg) scale(1);
 }
