@@ -6,16 +6,21 @@
     width: 190px;
     height: 350px;
     /* background-color: blue; */
-    align-items: center;   
+    /* align-items: center; */
+    /* background-color: yellow;    */
 }
-/* .top-games-tumbnail{
+.top-games-tumbnail{
     width: 188px;
     height: 250px;
     margin-bottom: 5px;
-} */
+}
+.top-games-info-container{
+    /* margin-left: 0; */
+    /* background-color: red; */
+}
 .top-games-name{
-    position: relative;
-    left: -40px;
+    /* position: relative;
+    left: -40px; */
     font-size: 1rem;
     font-weight: 500;
     color:#DEDEE3;
@@ -26,8 +31,8 @@
     color: #bf94ff;
 }
 .top-games-view{
-    position: relative;
-    left: -50px;
+    /* position: relative;
+    left: -50px; */
     font-size: 0.81rem;
     color: #ADADB8;
     margin-bottom: 5px;
@@ -38,8 +43,8 @@
 }
 .top-games-category{
     display: flex;
-    position: relative;
-    left: -65px;
+    /* position: relative;
+    left: -65px; */
     justify-content: center;
     align-items: center;
     width: 3.34rem;
@@ -57,6 +62,9 @@
     display: inline-block;
     margin-bottom: 5px;
     background-color: #9147ff;
+  }
+  .top-games-tumbnail:hover {
+    cursor: pointer;
   }
 
 .top-games-tumbnail:before,

@@ -30,9 +30,11 @@ function Categorys(props){
                 <div className="top-games-tumbnail">
                     <img className="picture" src={props.Img} alt=""/>
                 </div>
+                <div className="top-games-info-container">
                 <div className="top-games-name">{props.Game}</div>
                 <div className="top-games-view"> {viewers/1000} izleyici</div>
                 <span className="top-games-category">{props.Category}</span>
+                </div>
             </div>
     )
 }
