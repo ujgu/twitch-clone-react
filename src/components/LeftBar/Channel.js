@@ -1,7 +1,7 @@
 import React from "react";
 import "./Channel.css";
-import { IconContext } from "react-icons";
-import {CgProfile} from "react-icons/cg";
+// import { IconContext } from "react-icons";
+// import {CgProfile} from "react-icons/cg";
 
 function Channel(props) {
     return(
