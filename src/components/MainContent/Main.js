@@ -11,7 +11,7 @@ function Main() {
     <div className="mainContainer">
         <SimpleBar forceVisible="y" autoHide={10} style={{ maxHeight: 580}}>
             <Banner />
-            <LiveChannels />
+            <LiveChannels/>
             <TopGames />
             <div className="space-hidden"/>
         </SimpleBar>

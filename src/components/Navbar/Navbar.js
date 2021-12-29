@@ -13,7 +13,7 @@ function Navbar() {
         
       <div className="logo">
         <IconContext.Provider value={{ color: "#a970ff", className: "logoSets" }}>
-          <SiTwitch />
+          <SiTwitch/>
         </IconContext.Provider>
       </div>
         <div className="explore">

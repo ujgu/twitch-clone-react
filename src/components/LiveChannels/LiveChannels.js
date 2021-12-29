@@ -30,7 +30,7 @@ function LiveChannels() {
             </div>
             <div className="liveStreams">
             {channels.map(channel => (
-                <LiveStreams lang={channel.language} title={channel.title} name={channel.user_name} game={channel.game_name} viewer={channel.viewer_count} tumbnail={channel.thumbnail_url} />
+                <LiveStreams key={channel.user_name} img={channel.thumbnail_url} lang={channel.language} title={channel.title} name={channel.user_name} game={channel.game_name} viewer={channel.viewer_count} tumbnail={channel.thumbnail_url} />
             ))}
              </div>
         </div>

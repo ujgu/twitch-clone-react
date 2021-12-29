@@ -32,7 +32,7 @@ function Categorys(props){
                 </div>
                 <div className="top-games-info-container">
                 <div className="top-games-name">{props.Game}</div>
-                <div className="top-games-view"> {viewers/1000} izleyici</div>
+                <div className="top-games-view"> {(viewers/1000).toFixed(3)} izleyici</div>
                 <span className="top-games-category">{props.Category}</span>
                 </div>
             </div>

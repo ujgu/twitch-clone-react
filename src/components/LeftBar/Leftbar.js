@@ -33,7 +33,7 @@ function Leftbar(){
                 </div>
             <div className="channels">
             {channels.map(channel => (
-                <Channel  name={channel.user_name} game={channel.game_name} viewer={channel.viewer_count} img={channel.thumbnail_url}/>
+                <Channel key={channel.user_name}  name={channel.user_name} game={channel.game_name} viewer={channel.viewer_count} img={channel.thumbnail_url}/>
             ))}
                 
                 </div>

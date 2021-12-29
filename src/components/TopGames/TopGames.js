@@ -29,7 +29,7 @@ function TopGames(props){
             <div className="top-games-title">Seveceğinizi düşündüğümüz Kategoriler</div>
             <div className="top-games-list">
                 {games.map(game => (
-                <Categorys id={game.id} Game={game.name} Img={game.box_art_url} Viewer="339,7 B" Category="IRL" />
+                <Categorys key={game.id} id={game.id} Game={game.name} Img={game.box_art_url} Viewer="339,7 B" Category="IRL" />
                 ))}
             </div>
         </div>
