@@ -19,7 +19,7 @@ function LiveStreams(props){
                         <div className="liveStreamsTitle">
                             <h4 className="TitleLive">{(props.title).slice(0, 90)}</h4>
                             <p className="LiveName">{props.name}</p>
-                            <p className="LiveGame">{props.game}</p>
+                            <p className="LiveGame">{(props.game).slice(0, 25)}</p>
                             <span className="language">ENG</span>
                         </div>     
             </div>

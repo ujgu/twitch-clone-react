@@ -17,7 +17,7 @@ function Channel(props) {
         <span className="liveRed invisible"/>
         <span className="liveRed invisible"/>
         <span className="liveRed"/>
-        <p className="view">{(props.viewer/1000).toFixed(2)} K</p>
+        <p className="view">{(props.viewer/1000).toFixed(1)} K</p>
         
         </div>
     )

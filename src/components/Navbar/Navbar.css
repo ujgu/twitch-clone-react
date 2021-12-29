@@ -75,7 +75,7 @@
     width: 92%;
     height: 70%;
     border-radius: 7px;
-    border: none;
+    border: 2px solid #464649;
     background-color: #464649;
     color:#efeff1;
 }
