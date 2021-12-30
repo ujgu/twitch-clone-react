@@ -9,7 +9,7 @@ function LiveChannels() {
 
     useEffect(() => {
         const fetchData = async () => {
-            const result = await api.get("https://api.twitch.tv/helix/streams?first=4");
+            const result = await api.get("https://api.twitch.tv/helix/streams?first=5");
             let dataArray = result.data.data;
             let finalArray = dataArray.map(stream => {
                 let newURL = stream.thumbnail_url.replace("{width}", "320").replace("{height}", "180");

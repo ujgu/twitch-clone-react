@@ -9,7 +9,7 @@ function TopGames(props){
 
     useEffect(()=>{
         const fetchData = async () => {
-            const result = await api.get("https://api.twitch.tv/helix/games/top?first=18");
+            const result = await api.get("https://api.twitch.tv/helix/games/top?first=21");
             //console.log(result.data);
             let dataArray = result.data.data;
             let finalArray = dataArray.map(game => {

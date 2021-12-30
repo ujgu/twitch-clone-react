@@ -9,7 +9,7 @@ import TopGames from "../TopGames/TopGames";
 function Main() {
   return (
     <div className="mainContainer">
-        <SimpleBar forceVisible="y" autoHide={10} style={{ maxHeight: 580}}>
+        <SimpleBar forceVisible="y" autoHide={10} style={{ maxHeight: 826}}>
             <Banner />
             <LiveChannels/>
             <TopGames />
