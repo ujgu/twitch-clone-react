@@ -10,6 +10,7 @@ function Categorys(props){
         const fetchData = async () => {
             const result = await api.get("https://api.twitch.tv/helix/streams?game_id="+props.id);
             let dataArray = result.data.data;
+            // eslint-disable-next-line array-callback-return
             let finalArray = dataArray.map(stream => {
                 let newURL = stream.thumbnail_url.replace("{width}", "188").replace("{height}", "250");
                 stream.thumbnail_url = newURL;
@@ -19,12 +20,13 @@ function Categorys(props){
             }, 0);
             setStreamData(finalArray);
             setViewers(totalViewers);
+            console.log(streamData);
         }
         fetchData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[]);
 
 
-    //props.id
     return(
         <div className="top-games-container">
                 <div className="top-games-tumbnail">
